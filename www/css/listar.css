@@ -1,0 +1,115 @@
+body{
+   background-color:#473d7b;
+ }
+
+h1 {
+  margin-left: 21px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: rgb(206, 168, 247);
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+ .card{
+   background-color: white;
+   align-items: center;
+   border-radius: 20px;
+   margin: 5px;
+ }
+
+ img {
+  width: 300px;
+  height: 240px;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 50px;
+  background-color: rgb(206, 168, 247);
+  color: #473d7b;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: lowercase;
+}
+
+#salvar {
+  margin-left: 30px;
+}
+
+#salvar img {
+  width: 20px;
+  height: 20px;
+}
+
+#cancelar {
+  margin-left: -10px;
+}
+
+#cancelar img {
+  width: 25px;
+  height: 20px;
+}
+
+#editar {
+  margin-left: 10px;
+}
+
+#editar img {
+  width: 22px;
+  height: 20px;
+}
+
+#deletar {
+  margin-left: -30px;
+}
+
+#deletar img {
+ width: 25px;
+ height: 20px;
+}
+
+a {
+  color: black;
+}
+
+.rodape {
+  margin-top: 30px;
+  margin-right: 35px;
+  text-align: right;
+}
+
+label{
+  margin-left: 110px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size:20px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #CEA8F7;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: lowercase;
+}
+
+.form-control {
+  width: 230px;
+  height: 30px;
+  margin-left: 30px;
+}
+

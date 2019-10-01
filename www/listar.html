@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="components/jquery-3.4.1.min.js"></script>
+  <script src="components/acao.js"></script>
+
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/listar.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="col-xs-12"> 
+   <img src="pizza.gif">
+    <div class="card">
+     <div class="card-body">
+      <form class="login">
+           <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label>Pizzas:</label>
+                 <select class="form-control" id="lista">
+                  <option value="">listagem das pizzas</option>
+                 </select>
+               </div>
+              </div>     
+            </div>
+           <div class="row">
+            <div class="col-xs-12">
+             <label>Código:</label>
+              <div class="form-group">
+               <input type="number" class="form-control" placeholder="Insira o código da pizza aqui."   id="sabor">
+              </div>     
+             </div>
+            </div>
+           <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+             <label>Sabor:</label>
+               <input type="text" class="form-control" placeholder="Insira o sabor da pizza aqui."   id="sabor">
+             </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+             <label>Preço:</label>
+               <input type="number" class="form-control" placeholder="Insira o preço da pizza aqui."   id="preço">
+             </div>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-3">
+               <div class="form-group">
+                <button class="btn btn-block" type="button" id="salvar"><img src="salvar.png"></button>
+               </div>
+              </div>
+                <div class="col-xs-3">
+                <div class="form-group">
+                <button class="btn btn-block" type="button" id="editar"><img src="editar.png"></button>
+               </div>
+              </div>
+             <div class="col-xs-3">
+                <div class="form-group">
+                <button class="btn btn-block" type="button" id="cancelar"><img src="cancelar.png"></button>
+               </div>
+              </div>
+               <div class="col-xs-3">
+                <div class="form-group">
+                <button class="btn btn-block" type="button" id="deletar"><img src="deletar.png"></button>
+               </div>
+              </div>
+               </div>
+     </form>
+    </div>
+   </div>
+ </div> 
+</div>
+   <footer class="rodape">
+      <p> < com ❤ por Yumi /> </p>
+   </footer>
+         
+</body>
+</html>
